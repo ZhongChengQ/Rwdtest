@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	vertical-align: bottom;
+}
+.item-group {
+	width: 100%;
+	max-width: 1400px;
+	margin: auto;
+}
+.footer {
+	background-color: #333;
+	color: #aaa;
+	text-align: center;
+	padding: 10px 0px;
+}
+.banner img {
+	width: 100%;
+}
+.title{
+	background-color: #fe5;
+	margin: 0 0 20px;
+	padding: 20px 200px;
+}
+
+.title h2{
+	text-align: center;
+	font-size: 46px;
+}
+
+.title p{
+	text-align: center;
+	font-size: 22px;
+	padding: 0 50px;
+}
+
+
+.item {
+	margin: 0 10px 20px;
+}
+
+
+.item .text h3 {
+	font-size: 30px;
+	text-align: center;
+}
+
+
+.item .pic img {
+	width: 100%;
+}
+
+.service {
+	padding: 60px 0;
+	background-color: #faa;
+}
+.service .item{
+	margin: 0;
+	background-color: #faa;
+}
+
+
+@media screen and (min-width: 768px ){
+	.item-group{
+		display: flex;
+	}
+	.service .item{
+		display: flex;
+	}
+
+	.service .item .pic,
+	.service .item .text {
+		width: 50%;
+		margin: 0;
+	}
+	.service .item .text {
+		font-size: 32px;
+		display: flex;
+		box-sizing: border-box;
+		flex-direction: column;
+		justify-content: center;
+		padding: 0 0 0 90px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px ) {
+	
+
+}
